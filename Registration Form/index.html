@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinguaMaster Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-container">
+    <div class="container">
+      <h2>Welcome to LinguaMaster</h2>
+      <p class="description">Embark on an exciting journey to master new languages and broaden your horizons with LinguaMaster. Whether you're a beginner or an advanced learner, our platform offers personalized learning experiences tailored to your needs. Join our community today and start your language learning adventure!</p>
+      <div class="form-container">
+        <h3>LinguaMaster Registration Form</h3>
+        <form id="registration-form" action="#" method="post">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            <span class="error-message" id="username-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <span class="error-message" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <span class="error-message" id="password-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+            <span class="error-message" id="confirm-password-error"></span>
+          </div>
+          <div class="button-container">
+            <button type="submit">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
